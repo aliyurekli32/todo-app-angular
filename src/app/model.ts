@@ -20,7 +20,7 @@ export class TodoItem {
     completed;
 
     constructor(id:number,description:string,completed:boolean) {
-        this.id=id;
-   this.description=description;
+    this.id=id;
+    this.description=description;
     this.completed=completed}
     }

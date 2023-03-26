@@ -23,7 +23,7 @@
         <div>Delete</div>
       </div>
 
-      <div *ngFor="let item of items" class="flex border-blue-100 border-1 border-rounded justify-center items-center text-center">
+      <div *ngFor="let item of getItems()" class="flex border-blue-100 border-1 border-rounded justify-center items-center text-center">
         <div class="border-1 w-[10%] "> {{item.id}}</div>
         <div class="border-1 w-[20%] ">{{item.description}}</div>
         <div class="border-1 w-[30%] ">{{item.description}}</div>

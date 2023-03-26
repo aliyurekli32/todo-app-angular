@@ -16,5 +16,8 @@ export class AppComponent {
   model = new Model;
   getName() {
     return this.model.user
+  };
+  getItems() {
+    return this.model.items
   } 
 }
