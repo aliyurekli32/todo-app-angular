@@ -13,5 +13,8 @@ export class AppComponent {
     {id:2,description:"Javascript",completed:false},
     {id:3,description:"Java",completed:false}
   ] ;
-  model = new Model
+  model = new Model;
+  getName() {
+    return this.model.user
+  } 
 }
